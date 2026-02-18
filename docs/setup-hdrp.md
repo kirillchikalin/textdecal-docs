@@ -7,4 +7,4 @@ eleventyNavigation:
     key: HDRP
     parent: Setup
 ---
-{% alert 'HDRP currently not supported', 'warning', 'Note' %}
+{% alert 'HDRP is currently not supported', 'warning', 'Note' %}

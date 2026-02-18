@@ -10,12 +10,12 @@ eleventyNavigation:
 
 ## Configure Universal Render Pipeline
 
-- Open your `Universal Renderer Data` asset
-  - _you can find the location through_ `Universal Renderer Pipeline Asset → Renderer List`.
-- In the `Renderer Features` section:
-  - click `Add Renderer Feature → Decal`.
-  - click `Add Renderer Feature → Text Decal`.
-- Set `Decal Technique` to either `DBuffer` or `Screen Space`.
+1. Open your `Universal Renderer Data` asset
+    - _you can find the location through_ `Universal Renderer Pipeline Asset → Renderer List`.
+2. In the `Renderer Features` section:
+    - click `Add Renderer Feature → Decal`.
+    - click `Add Renderer Feature → Text Decal`.
+3. Set `Decal Technique` to either `DBuffer` or `Screen Space`.
     {% alert 'To use the `DBuffer` mode with `Text Decal Renderer`, enable it in the `Decal Renderer` and configure the settings accordingly. `Automatic` mode is not supported.', 'success', 'Note' %}
 
 ## Set Up TextMesh Pro with Decal Shader

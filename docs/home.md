@@ -6,8 +6,6 @@ permalink: index.html
 date: false
 ---
 
-## Dependencies
-
 ## Quick Setup
 ### URP
 1. Add [`Decal Renderer Feature`](https://docs.unity3d.com/Documentation/Manual/urp/renderer-feature-decal-reference.html) to your URP Renderer.
@@ -20,5 +18,5 @@ date: false
 6. Configure the `Text Decal` component and text material, ensuring you set the `Projection Depth` properly.
 7. PROFIT!
 
-### HDRP
-{% alert 'HDRP currently not supported', 'warning', 'Note' %}
+### HDRP `not supported`
+{% alert 'HDRP is currently not supported', 'warning', 'Note' %}
