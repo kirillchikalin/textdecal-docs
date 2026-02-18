@@ -1,32 +1,25 @@
 {
-    "siteTitle": "My Project Title",
-    "siteDescription": "This is the description of my project title",
-    "author": "John Doe",
-    "faviconUrl": "/assets/myfavicon.png",
-    "blogTitle": "Blog",
-    "blogDescription": "Here is the description of the blog part",
-    "productionUrl": "https://eleventy-libdoc.netlify.app",
+    "siteTitle": "Text Decal",
+    "siteDescription": "User manual for Text Decal Asset",
+    "author": false,
+    "siteLogoUrl": "/assets/icon.png",
+    "siteLogoMaxHeight": 60,
+    "faviconUrl": "/assets/icon.png",
+    "displayTagsListLink": false,
+    "ogImageUrl": "",
+    "productionUrl": "https://textdecal.chikalin.space",
+    "editThisPageRootUrl": false,
+    "gitLastModifiedDate": false,
+    "tocEnabled": true,
+    "tocHtmlTags": ["h1", "h2", "h3"],
     "customLinks": [
         {
-            "url": "/feed.xml",
-            "text": "Atom feed"
+            "url": "https://assetstore.unity.com/packages/slug/302653",
+            "text": "Unity Asset Store"
         },
         {
-            "url": "https://github.com/ita-design-system/eleventy-libdoc",
-            "text": "GitHub"
-        },
-        {
-            "url": "#",
-            "text": "Bluesky"
-        },
-        {
-            "url": "#",
-            "text": "LinkedIn"
-        },
-        {
-            "url": "#",
-            "text": "CodePen"
+            "url": "https://www.fab.com/listings/b8a96170-f6d3-4200-8cef-ffd055f2422e",
+            "text": "FAB"
         }
-    ],
-    "editThisPageRootUrl": "https://github.com/ita-design-system/eleventy-libdoc/blob/main"
+    ]
 }
