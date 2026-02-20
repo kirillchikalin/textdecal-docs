@@ -1,0 +1,12 @@
+<script>
+  if (window.location.pathname === "/assetstore/") {
+    const assetStoreUrl = "{{ libdocConfig.customLinks[0].url }}";
+    if (window.ym) {
+      ym(YOUR_COUNTER_ID, 'reachGoal', 'assetstore_click');
+    }
+
+    setTimeout(() => {
+      window.location.href = assetStoreUrl;
+    }, 200);
+  }
+</script>
