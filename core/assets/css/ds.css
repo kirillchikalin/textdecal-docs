@@ -10,24 +10,24 @@
   --ita-colors-neutral-700: #444444;
   --ita-colors-neutral-800: #252525;
   --ita-colors-neutral-900: #000000;
-  --ita-colors-primary-100: #fafcff;
-  --ita-colors-primary-200: #daeafb;
-  --ita-colors-primary-300: #a5d0fd;
-  --ita-colors-primary-400: #5dabfe;
-  --ita-colors-primary-500: #0165d0;
-  --ita-colors-primary-600: #0156b2;
-  --ita-colors-primary-700: #03458c;
-  --ita-colors-primary-800: #02366f;
-  --ita-colors-primary-900: #01254b;
-  --ita-colors-success-100: #f2fbec;
-  --ita-colors-success-500: #5cab33;
-  --ita-colors-success-900: #2b650c;
-  --ita-colors-warning-100: #fff7eb;
-  --ita-colors-warning-500: #EBA232;
-  --ita-colors-warning-900: #87560b;
-  --ita-colors-danger-100: #fef3f3;
-  --ita-colors-danger-500: #DF3528;
-  --ita-colors-danger-900: #760e06;
+  --ita-colors-primary-100: #fefdfd;
+  --ita-colors-primary-200: #b8fee9;
+  --ita-colors-primary-300: #a0fee2;
+  --ita-colors-primary-400: #0cb080;
+  --ita-colors-primary-500: #0a976e;
+  --ita-colors-primary-600: #097e5c;
+  --ita-colors-primary-700: #076549;
+  --ita-colors-primary-800: #054c37;
+  --ita-colors-primary-900: #033225;
+  --ita-colors-success-100: #b8fee9;
+  --ita-colors-success-500: #097e5c;
+  --ita-colors-success-900: #076549;
+  --ita-colors-warning-100: #fcf4ce;
+  --ita-colors-warning-500: #d8b407;
+  --ita-colors-warning-900: #483c02;
+  --ita-colors-danger-100: #ffccd7;
+  --ita-colors-danger-500: #cc002a;
+  --ita-colors-danger-900: #4d0010;
   --ita-fontSizes-1: 10px;
   --ita-fontSizes-2: 12px;
   --ita-fontSizes-3: 14px;
@@ -1410,7 +1410,7 @@
   border-style: solid;
 }
 .bstyle-dashed {
-  border-style: dashed;
+  border-style: solid;
 }
 .bstyle-none {
   border-style: none;
@@ -1419,7 +1419,7 @@
   border-top-style: solid;
 }
 .btstyle-dashed {
-  border-top-style: dashed;
+  border-top-style: solid;
 }
 .btstyle-none {
   border-top-style: none;
@@ -1428,7 +1428,7 @@
   border-right-style: solid;
 }
 .brstyle-dashed {
-  border-right-style: dashed;
+  border-right-style: solid;
 }
 .brstyle-none {
   border-right-style: none;
@@ -1437,7 +1437,7 @@
   border-bottom-style: solid;
 }
 .bbstyle-dashed {
-  border-bottom-style: dashed;
+  border-bottom-style: solid;
 }
 .bbstyle-none {
   border-bottom-style: none;
@@ -1446,7 +1446,7 @@
   border-left-style: solid;
 }
 .blstyle-dashed {
-  border-left-style: dashed;
+  border-left-style: solid;
 }
 .blstyle-none {
   border-left-style: none;
@@ -2750,7 +2750,7 @@
 }
 .bstyle-dashed--xs,
 [bstyle-dashed*="xs"] {
-  border-style: dashed;
+  border-style: solid;
 }
 .bstyle-none--xs,
 [bstyle-none*="xs"] {
@@ -4017,7 +4017,7 @@
 }
 .bstyle-dashed--sm,
 [bstyle-dashed*="sm"] {
-  border-style: dashed;
+  border-style: solid;
 }
 .bstyle-none--sm,
 [bstyle-none*="sm"] {
@@ -5284,7 +5284,7 @@
 }
 .bstyle-dashed--md,
 [bstyle-dashed*="md"] {
-  border-style: dashed;
+  border-style: solid;
 }
 .bstyle-none--md,
 [bstyle-none*="md"] {

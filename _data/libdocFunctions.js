@@ -139,6 +139,7 @@ export default {
             if (htmlTagsFound.length > libdocConfig.tocMinTags) {
                 tocMarkup = `
                     <ol class="cgap-3em | m-0 pl-0 pb-5 o-auto | lh-1 | ls-none bwidth-1 bstyle-dashed bcolor-neutral-500 btwidth-0 brwidth-0"
+                        style="border-left-width: 0;"
                         d-flex="xs,sm"
                         fd-column="xs,sm"
                         fw-wrap="xs,sm"
