@@ -6,7 +6,7 @@
     "siteLogoMaxHeight": 60,
     "faviconUrl": "/assets/icon.png",
     "displayTagsListLink": false,
-    "ogImageUrl": "",
+    "ogImageUrl": "/assets/og-image.png",
     "productionUrl": "https://textdecal.chikalin.space",
     "editThisPageRootUrl": false,
     "gitLastModifiedDate": false,

@@ -1,3 +1,5 @@
+<html>
+<head>
 <script>
     const assetStoreUrl = "{{ libdocConfig.customLinks[0].url }}";
     if (window.ym) {
@@ -7,3 +9,8 @@
       window.location.href = assetStoreUrl;
     }, 200);
 </script>
+</head>
+<body>
+{{ content }}
+</body>
+</html>
