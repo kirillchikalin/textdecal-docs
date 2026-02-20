@@ -19,37 +19,47 @@
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/106926515" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 
-   <title>{{ pageTitle }}</title>
-   <link rel="icon" type="image/png" href="{{ libdocConfig.faviconUrl }}">
+    <title>Text Decal | Unity Asset Store</title>
+
+    <meta itemprop="name" content="Text Decal">
+    <meta name="description" itemprop="description" content="Text Decal lets you display dynamic text as decals directly on any surface in Unity">
+    <meta name="application-name" content="Text Decal">
+    <meta name="author" content="false">
+    <link rel="icon" type="image/png" href="/assets/icon.png">
 
     <!-- Microsoft -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="msapplication-starturl" content="{{ page.url }}">
-    <meta name="msapplication-tooltip" content="{{ pageTitle }}">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="msapplication-tooltip" content="Text Decal">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ page.url }}">
-    <meta property="og:title" content="{{ pageTitle }}">
-    <meta property="og:description" content="{{ pageDescription }}">
-    <meta property="og:image" content="{{ pageOgImageUrl }}">
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="Text Decal">
+    <meta property="og:description" content="Text Decal lets you display dynamic text as decals directly on any surface in Unity">
+    <meta property="og:image" content="/assets/og-image.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ pageTitle }}">
-    <meta name="twitter:description" content="{{ pageDescription }}">
-    <meta name="twitter:url" content="{{ page.url }}">
-    <meta name="twitter:image" content="{{ pageOgImageUrl }}">
+    <meta name="twitter:title" content="Text Decal">
+    <meta name="twitter:description" content="Text Decal lets you display dynamic text as decals directly on any surface in Unity">
+    <meta name="twitter:url" content="/">
+    <meta name="twitter:image" content="/assets/og-image.png">
 
     <!-- iOS -->
-    <meta name="apple-mobile-web-app-title" content="{{ pageTitle }}">
+    <meta name="apple-mobile-web-app-title" content="Text Decal">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <!-- Android -->
     <meta name="mobile-web-app-capable" content="yes">
 
+    <link rel="stylesheet" href="/core/assets/css/ds.css">
+    <link rel="stylesheet" href="/core/assets/css/ds__defaults.css">
+    <link rel="stylesheet" href="/core/assets/css/ds__colors.css">
+    <link rel="stylesheet" href="/core/assets/css/ds__dark_mode.css" media="(prefers-color-scheme: dark)" id="libdoc_dark_mode_css">
+    <link rel="stylesheet" href="/core/assets/css/hljs/night-owl.css">
 </head>
 <body>
-{{ content }}
+<div><p>{{ content }}</p></div>
 </body>
 </html>
