@@ -12,7 +12,7 @@
     ym(106926515, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
     <!-- /Yandex.Metrika counter -->
 
-    const assetStoreUrl = "{{ libdocConfig.customLinks[0].url }}";
+const assetStoreUrl = "{{ libdocConfig.customLinks[0].url }}";
     setTimeout(() => {
       window.location.href = assetStoreUrl;
     }, 200);
@@ -25,7 +25,6 @@
     <meta name="description" itemprop="description" content="Text Decal lets you display dynamic text as decals directly on any surface in Unity">
     <meta name="application-name" content="Text Decal">
     <meta name="author" content="false">
-    <link rel="icon" type="image/png" href="/assets/icon.png">
 
     <!-- Microsoft -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -58,8 +57,66 @@
     <link rel="stylesheet" href="/core/assets/css/ds__colors.css">
     <link rel="stylesheet" href="/core/assets/css/ds__dark_mode.css" media="(prefers-color-scheme: dark)" id="libdoc_dark_mode_css">
     <link rel="stylesheet" href="/core/assets/css/hljs/night-owl.css">
+   <!-- fallback без JS -->
+  <meta http-equiv="refresh" content="5;url={{ libdocConfig.customLinks[0].url }}">
+  <style>
+
+    body {
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      text-align: center;
+      max-width: 420px;
+    }
+
+.icon-spinner {
+  position: relative;
+  width: 112px;
+  height: 112px;
+  margin: 0 auto 1.5rem;
+}
+
+.icon-spinner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 3px solid var(--ita-colors-neutral-500);
+  border-top-color: var(--ita-colors-primary-500);
+  animation: spin 1s linear infinite;
+}
+
+.asset-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  transform: translate(-50%, -50%);
+}
+
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
 </head>
-<body>
-<div><p>{{ content }}</p></div>
+<body class="d-flex fd-column ai-center | m-0">
+<main>
+  <div class="card gap-5 | p-5 m-0 | brad-3 bwidth-1 bstyle-dashed bcolor-neutral-500 bc-neutral-200 bs-1">
+    <h1>Redirecting…</h1>
+    <p>You are being redirected to the Unity Asset Store.</p>
+<div class="icon-spinner">
+  <img src="/assets/icon.png" alt="Text Decal icon" class="asset-icon">
+</div>
+    <p>
+      If nothing happens,
+      <a href="{{ libdocConfig.customLinks[0].url }}">click here</a>.
+    </p>
+  </div>
+  </main>
 </body>
 </html>
