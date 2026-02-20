@@ -51,7 +51,7 @@ export default function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("sandboxes");
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("core/assets");
-    eleventyConfig.addPassthroughCopy("favicon.png");
+    eleventyConfig.addPassthroughCopy("favicon.ico");
     // END FILE COPY
     
     return {
