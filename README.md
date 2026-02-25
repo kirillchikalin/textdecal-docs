@@ -1,3 +1,5 @@
+[![Text Decal on the Unity Asset Store](https://textdecal.chikalin.space/assets/og-image.png)](https://textdecal.chikalin.space/assetstore)
+
 # **Text Decal Documentation**
 
 ## **Description**
