@@ -7,3 +7,6 @@ Text Decal is a tool for rendering text decals in Unity using the Universal Rend
 
 Text Decal asset is available on the Unity Asset Store via this link:<br>
 👉 [Unity Asset Store page](https://textdecal.chikalin.space/assetstore)
+
+Documentation:
+[textdecal.chikalin.space](https://textdecal.chikalin.space)
