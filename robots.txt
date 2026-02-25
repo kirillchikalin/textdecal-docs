@@ -9,3 +9,5 @@ Allow: /
 
 User-agent: CC-Bot
 Allow: /
+
+Sitemap: https://textdecal.chikalin.space/sitemap.xml

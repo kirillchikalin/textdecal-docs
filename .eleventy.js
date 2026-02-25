@@ -1,23 +1,29 @@
 // START 11TY imports
-import eleventyNavigationPlugin             from "@11ty/eleventy-navigation";
-import { InputPathToUrlTransformPlugin }    from "@11ty/eleventy";
-import { eleventyImageTransformPlugin }     from "@11ty/eleventy-img";
-import { EleventyHtmlBasePlugin }           from "@11ty/eleventy";
-import pluginRss                            from "@11ty/eleventy-plugin-rss";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import {InputPathToUrlTransformPlugin} from "@11ty/eleventy";
+import {eleventyImageTransformPlugin} from "@11ty/eleventy-img";
+import {EleventyHtmlBasePlugin} from "@11ty/eleventy";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import sitemap from "@quasibit/eleventy-plugin-sitemap";
 // END 11TY imports
 
 // START LibDoc imports
-import libdocConfig                         from "./_data/libdocConfig.js";
-import libdocFunctions                      from "./_data/libdocFunctions.js";
+import libdocConfig from "./_data/libdocConfig.js";
+import libdocFunctions from "./_data/libdocFunctions.js";
 // END LibDoc imports
 
-export default function(eleventyConfig) {
+export default function (eleventyConfig) {
     // START PLUGINS
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, libdocFunctions.pluginsParameters.eleventyImageTransform());
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(sitemap, {
+        sitemap: {
+            hostname: "https://textdecal.chikalin.space",
+        },
+    });
     // END PLUGINS
 
     // START FILTERS
@@ -48,13 +54,13 @@ export default function(eleventyConfig) {
     // END SHORTCODES
 
     // START FILE COPY
-	eleventyConfig.addPassthroughCopy("sandboxes");
+    eleventyConfig.addPassthroughCopy("sandboxes");
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("core/assets");
     eleventyConfig.addPassthroughCopy("favicon.ico");
     eleventyConfig.addPassthroughCopy("robots.txt");
     // END FILE COPY
-    
+
     return {
         pathPrefix: libdocConfig.htmlBasePathPrefix
     }
