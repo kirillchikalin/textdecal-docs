@@ -59,7 +59,6 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("core/assets");
     eleventyConfig.addPassthroughCopy("favicon.ico");
     eleventyConfig.addPassthroughCopy("robots.txt");
-    eleventyConfig.addPassthroughCopy("yandex_50faaa6bd7a54932.html");
     // END FILE COPY
 
     return {
