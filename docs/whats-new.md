@@ -6,8 +6,15 @@ permalink: whats-new/index.html
 date: false
 eleventyNavigation:
     key: What's New
+    order: 0
 tocHtmlTags: ["h1"]
 ---
+## [1.2.5] `2026-03-26`
+
+`Fixed`
+- **Unity 6.4 Compatibility**:
+  - Updated renderer feature implementation to comply with Unity 6.4 API changes.
+
 ## [1.2.4] `2025-08-19`
 
 `Fixed`
